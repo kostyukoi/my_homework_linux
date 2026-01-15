@@ -1,2 +1,2 @@
-echo '172.20.1.1 dev-geteway' | sudo tee -a /etc/hosts 
+echo '172.20.1.1 dev-gateway' | sudo tee -a /etc/hosts 
 
