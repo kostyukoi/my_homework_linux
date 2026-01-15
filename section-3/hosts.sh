@@ -1,0 +1,2 @@
+sudo bash hosts.sh
+
