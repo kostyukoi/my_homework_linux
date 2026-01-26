@@ -1,0 +1,3 @@
+max@ws01:~$ systemctl get-default
+multi-user.target
+max@ws01:~$ 
