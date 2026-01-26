@@ -1,0 +1,11 @@
+dpkg: dependency problems prevent configuration of tor:
+ tor depends on libevent-2.1-6 (>= 2.1.8-stable); however:
+  Package libevent-2.1-6 is not installed.
+ tor depends on libssl1.1 (>= 1.1.0); however:
+  Package libssl1.1 is not installed.
+
+Необходимо установить следующие зависимости:
+libssl1.1 и libevent-2.1-6.
+
+В локальных репозиториях пакетов libssl1.1 и libevent-2.1-6 нет, поэтому необходимо найти эти пакеты в сети интернет скачать *.dep и произвести установку. Далее установить пакет tor0.3.2.10-1amd64.deb
+
