@@ -38,7 +38,7 @@ deb http://us.archive.ubuntu.com/ubuntu/ jammy-backports main restricted univers
 
 deb http://security.ubuntu.com/ubuntu jammy-security main restricted
 # deb-src http://security.ubuntu.com/ubuntu jammy-security main restricted
-deb http://security.ubuntu.com/ubuntu jammy-security universe
+# deb http://security.ubuntu.com/ubuntu jammy-security universe
 # deb-src http://security.ubuntu.com/ubuntu jammy-security universe
 deb http://security.ubuntu.com/ubuntu jammy-security multiverse
 # deb-src http://security.ubuntu.com/ubuntu jammy-security multiverse
