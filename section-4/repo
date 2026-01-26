@@ -1,3 +1,6 @@
+Редактировать файл /etc/apt/sources.list
+Закомментировать все строки относящиеся к репозмторию jammy-security
+
 # deb cdrom:[Ubuntu 22.04 LTS _Jammy Jellyfish_ - Release amd64 (20220419)]/ jammy main restricted
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
@@ -40,7 +43,7 @@ deb http://security.ubuntu.com/ubuntu jammy-security main restricted
 # deb-src http://security.ubuntu.com/ubuntu jammy-security main restricted
 # deb http://security.ubuntu.com/ubuntu jammy-security universe
 # deb-src http://security.ubuntu.com/ubuntu jammy-security universe
-deb http://security.ubuntu.com/ubuntu jammy-security multiverse
+# deb http://security.ubuntu.com/ubuntu jammy-security multiverse
 # deb-src http://security.ubuntu.com/ubuntu jammy-security multiverse
 
 # This system was installed using small removable media

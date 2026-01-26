@@ -1,1 +1,1 @@
-sudo dpkg -P libjs-jquery-markitup
+sudo apt autoremove libjs-jquery-markitup
