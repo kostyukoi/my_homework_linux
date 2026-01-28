@@ -1,0 +1,1 @@
+find docs/ -type f -name "copyright" -exec grep '^[0-9]' {} + > ~/Documents/my_homework_linux/section-5/strings
